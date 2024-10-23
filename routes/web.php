@@ -9,7 +9,12 @@ Route::get('/', function () {
 Route::get('/welcome', function () {
     return view('welcome'); // merujuk ke file index.blade.php di folder resource/views
 });
+
 Route::get('/about', function () {
-    return "Tentang Que"; 
-});
+    return view('about'); // meruju ke file about.blode.php di folder resoucre/viesw 
+}); 
+
+Route::get('/login', function () {
+    return view('login'); // meruju ke file login.blode.php di folder resoucre/viesw 
+}); 
     
