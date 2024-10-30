@@ -32,6 +32,7 @@
         <a href="#contact" class="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold shadow hover:bg-blue-700 transition">
           Contact Me
         </a>
+        <a href="{{ route('home') }}" class="bg-blue-600 text-white px-6 space-y-10 py-3 rounded-lg font-semibold shadow hover:bg-blue-700 transition">Kembali</a>
       </div>
     </div>
   </section>

@@ -38,6 +38,7 @@
             <a href="#"><img src="https://img.icons8.com/ios-filled/50/ffffff/tiktok.png" alt="TikTok" class="w-6 h-6"></a>
             <a href="#"><img src="https://img.icons8.com/ios-filled/50/ffffff/youtube-play.png" alt="YouTube" class="w-6 h-6"></a>
             <a href="#"><img src="https://img.icons8.com/ios-filled/50/ffffff/discord-logo.png" alt="Discord" class="w-6 h-6"></a>
+            <a href="{{ route('about') }}" class="flex space-x-4 mb-6">Login</a>
         </div>
 
         <!-- Buttons -->
